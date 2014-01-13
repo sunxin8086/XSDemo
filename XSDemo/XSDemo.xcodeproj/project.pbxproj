@@ -186,6 +186,7 @@
 				83F19A851883E8F500DD0F81 /* Sources */,
 				83F19A861883E8F500DD0F81 /* Frameworks */,
 				83F19A871883E8F500DD0F81 /* Resources */,
+				83F19ACB1883EBD800DD0F81 /* Export Environment */,
 			);
 			buildRules = (
 			);
@@ -268,6 +269,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83F19ACB1883EBD800DD0F81 /* Export Environment */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Export Environment";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = XcodeCoverage/exportenv.sh;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		83F19A851883E8F500DD0F81 /* Sources */ = {
