@@ -20,8 +20,8 @@
 		83F19AAD1883E8F600DD0F81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F19A8C1883E8F500DD0F81 /* Foundation.framework */; };
 		83F19AAE1883E8F600DD0F81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F19A901883E8F500DD0F81 /* UIKit.framework */; };
 		83F19AB61883E8F600DD0F81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83F19AB41883E8F600DD0F81 /* InfoPlist.strings */; };
-		83F19AB81883E8F600DD0F81 /* XSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F19AB71883E8F600DD0F81 /* XSDemoTests.m */; };
 		83F19AC41883E99B00DD0F81 /* XSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F19AC31883E99B00DD0F81 /* XSPerson.m */; };
+		83F19AC71883EA3200DD0F81 /* XSPersonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F19AC61883EA3200DD0F81 /* XSPersonTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,9 @@
 		83F19AAB1883E8F600DD0F81 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		83F19AB31883E8F600DD0F81 /* XSDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XSDemoTests-Info.plist"; sourceTree = "<group>"; };
 		83F19AB51883E8F600DD0F81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		83F19AB71883E8F600DD0F81 /* XSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSDemoTests.m; sourceTree = "<group>"; };
 		83F19AC21883E99B00DD0F81 /* XSPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSPerson.h; sourceTree = "<group>"; };
 		83F19AC31883E99B00DD0F81 /* XSPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSPerson.m; sourceTree = "<group>"; };
+		83F19AC61883EA3200DD0F81 /* XSPersonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSPersonTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +141,7 @@
 		83F19AB11883E8F600DD0F81 /* XSDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				83F19AB71883E8F600DD0F81 /* XSDemoTests.m */,
+				83F19AC51883EA2500DD0F81 /* Models */,
 				83F19AB21883E8F600DD0F81 /* Supporting Files */,
 			);
 			path = XSDemoTests;
@@ -161,6 +161,14 @@
 			children = (
 				83F19AC21883E99B00DD0F81 /* XSPerson.h */,
 				83F19AC31883E99B00DD0F81 /* XSPerson.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		83F19AC51883EA2500DD0F81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83F19AC61883EA3200DD0F81 /* XSPersonTest.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -274,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F19AB81883E8F600DD0F81 /* XSDemoTests.m in Sources */,
+				83F19AC71883EA3200DD0F81 /* XSPersonTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
