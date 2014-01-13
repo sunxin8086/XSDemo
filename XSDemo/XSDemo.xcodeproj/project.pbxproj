@@ -23,6 +23,7 @@
 		83F19AC41883E99B00DD0F81 /* XSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F19AC31883E99B00DD0F81 /* XSPerson.m */; };
 		83F19AC71883EA3200DD0F81 /* XSPersonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F19AC61883EA3200DD0F81 /* XSPersonTest.m */; };
 		83F19ACA1883EAC900DD0F81 /* XSTestObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F19AC91883EAC900DD0F81 /* XSTestObserver.m */; };
+		83F19ACE18847F1000DD0F81 /* XSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F19ACD18847F1000DD0F81 /* XSSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		83F19AC31883E99B00DD0F81 /* XSPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSPerson.m; sourceTree = "<group>"; };
 		83F19AC61883EA3200DD0F81 /* XSPersonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSPersonTest.m; sourceTree = "<group>"; };
 		83F19AC91883EAC900DD0F81 /* XSTestObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSTestObserver.m; sourceTree = "<group>"; };
+		83F19ACC18847F0F00DD0F81 /* XSSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSSecondViewController.h; sourceTree = "<group>"; };
+		83F19ACD18847F1000DD0F81 /* XSSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				83F19A9E1883E8F500DD0F81 /* Main.storyboard */,
 				83F19AA11883E8F500DD0F81 /* XSViewController.h */,
 				83F19AA21883E8F500DD0F81 /* XSViewController.m */,
+				83F19ACC18847F0F00DD0F81 /* XSSecondViewController.h */,
+				83F19ACD18847F1000DD0F81 /* XSSecondViewController.m */,
 				83F19AA41883E8F500DD0F81 /* Images.xcassets */,
 				83F19A931883E8F500DD0F81 /* Supporting Files */,
 			);
@@ -296,6 +301,7 @@
 				83F19AA31883E8F500DD0F81 /* XSViewController.m in Sources */,
 				83F19A9D1883E8F500DD0F81 /* XSAppDelegate.m in Sources */,
 				83F19AC41883E99B00DD0F81 /* XSPerson.m in Sources */,
+				83F19ACE18847F1000DD0F81 /* XSSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
