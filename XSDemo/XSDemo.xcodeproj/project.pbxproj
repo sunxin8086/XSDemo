@@ -22,6 +22,7 @@
 		83F19AB61883E8F600DD0F81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83F19AB41883E8F600DD0F81 /* InfoPlist.strings */; };
 		83F19AC41883E99B00DD0F81 /* XSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F19AC31883E99B00DD0F81 /* XSPerson.m */; };
 		83F19AC71883EA3200DD0F81 /* XSPersonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F19AC61883EA3200DD0F81 /* XSPersonTest.m */; };
+		83F19ACA1883EAC900DD0F81 /* XSTestObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F19AC91883EAC900DD0F81 /* XSTestObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		83F19AC21883E99B00DD0F81 /* XSPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSPerson.h; sourceTree = "<group>"; };
 		83F19AC31883E99B00DD0F81 /* XSPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSPerson.m; sourceTree = "<group>"; };
 		83F19AC61883EA3200DD0F81 /* XSPersonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSPersonTest.m; sourceTree = "<group>"; };
+		83F19AC91883EAC900DD0F81 /* XSTestObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSTestObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			children = (
 				83F19AC51883EA2500DD0F81 /* Models */,
 				83F19AB21883E8F600DD0F81 /* Supporting Files */,
+				83F19AC91883EAC900DD0F81 /* XSTestObserver.m */,
 			);
 			path = XSDemoTests;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F19ACA1883EAC900DD0F81 /* XSTestObserver.m in Sources */,
 				83F19AC71883EA3200DD0F81 /* XSPersonTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

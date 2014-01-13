@@ -8,6 +8,8 @@
 
 #import "XSAppDelegate.h"
 
+extern void __gcov_flush(void);
+
 @implementation XSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -40,6 +42,7 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
+    __gcov_flush();
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
