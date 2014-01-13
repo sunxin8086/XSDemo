@@ -21,6 +21,7 @@
 		83F19AAE1883E8F600DD0F81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F19A901883E8F500DD0F81 /* UIKit.framework */; };
 		83F19AB61883E8F600DD0F81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83F19AB41883E8F600DD0F81 /* InfoPlist.strings */; };
 		83F19AB81883E8F600DD0F81 /* XSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F19AB71883E8F600DD0F81 /* XSDemoTests.m */; };
+		83F19AC41883E99B00DD0F81 /* XSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F19AC31883E99B00DD0F81 /* XSPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		83F19AB31883E8F600DD0F81 /* XSDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XSDemoTests-Info.plist"; sourceTree = "<group>"; };
 		83F19AB51883E8F600DD0F81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83F19AB71883E8F600DD0F81 /* XSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSDemoTests.m; sourceTree = "<group>"; };
+		83F19AC21883E99B00DD0F81 /* XSPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSPerson.h; sourceTree = "<group>"; };
+		83F19AC31883E99B00DD0F81 /* XSPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		83F19A921883E8F500DD0F81 /* XSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				83F19AC11883E98D00DD0F81 /* Models */,
 				83F19A9B1883E8F500DD0F81 /* XSAppDelegate.h */,
 				83F19A9C1883E8F500DD0F81 /* XSAppDelegate.m */,
 				83F19A9E1883E8F500DD0F81 /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				83F19AB41883E8F600DD0F81 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83F19AC11883E98D00DD0F81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83F19AC21883E99B00DD0F81 /* XSPerson.h */,
+				83F19AC31883E99B00DD0F81 /* XSPerson.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +266,7 @@
 				83F19A991883E8F500DD0F81 /* main.m in Sources */,
 				83F19AA31883E8F500DD0F81 /* XSViewController.m in Sources */,
 				83F19A9D1883E8F500DD0F81 /* XSAppDelegate.m in Sources */,
+				83F19AC41883E99B00DD0F81 /* XSPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
